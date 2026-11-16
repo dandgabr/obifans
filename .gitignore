@@ -1,0 +1,25 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependências, caches e saídas locais
+node_modules/
+coverage/
+dist/
+.cache/
+.cloudflare/
+.wrangler/
+*.log
+
+# Arquivos temporários de editores e sistemas
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
